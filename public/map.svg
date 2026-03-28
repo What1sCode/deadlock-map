@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4096" height="4096" viewBox="0 0 4096 4096">
+  <rect width="4096" height="4096" fill="#1a1f2e"/>
+
+  <!-- Grid lines -->
+  <g stroke="#252b3b" stroke-width="2" opacity="0.8">
+    <line x1="1024" y1="0" x2="1024" y2="4096"/>
+    <line x1="2048" y1="0" x2="2048" y2="4096"/>
+    <line x1="3072" y1="0" x2="3072" y2="4096"/>
+    <line x1="0" y1="1024" x2="4096" y2="1024"/>
+    <line x1="0" y1="2048" x2="4096" y2="2048"/>
+    <line x1="0" y1="3072" x2="4096" y2="3072"/>
+  </g>
+
+  <!-- Sub-grid -->
+  <g stroke="#1e2435" stroke-width="1" opacity="0.5">
+    <line x1="512" y1="0" x2="512" y2="4096"/>
+    <line x1="1536" y1="0" x2="1536" y2="4096"/>
+    <line x1="2560" y1="0" x2="2560" y2="4096"/>
+    <line x1="3584" y1="0" x2="3584" y2="4096"/>
+    <line x1="0" y1="512" x2="4096" y2="512"/>
+    <line x1="0" y1="1536" x2="4096" y2="1536"/>
+    <line x1="0" y1="2560" x2="4096" y2="2560"/>
+    <line x1="0" y1="3584" x2="4096" y2="3584"/>
+  </g>
+
+  <!-- Amber corner -->
+  <rect x="0" y="0" width="600" height="600" fill="#78350f" opacity="0.3" rx="20"/>
+  <text x="300" y="260" text-anchor="middle" fill="#fbbf24" font-size="36" font-family="monospace" font-weight="bold">AMBER</text>
+  <text x="300" y="310" text-anchor="middle" fill="#fbbf24" font-size="36" font-family="monospace" font-weight="bold">HAND</text>
+
+  <!-- Sapphire corner -->
+  <rect x="3496" y="3496" width="600" height="600" fill="#1e3a5f" opacity="0.3" rx="20"/>
+  <text x="3796" y="3756" text-anchor="middle" fill="#60a5fa" font-size="36" font-family="monospace" font-weight="bold">SAPPHIRE</text>
+  <text x="3796" y="3806" text-anchor="middle" fill="#60a5fa" font-size="36" font-family="monospace" font-weight="bold">FLAME</text>
+
+  <!-- Center marker -->
+  <circle cx="2048" cy="2048" r="60" fill="none" stroke="#c084fc" stroke-width="3" opacity="0.8"/>
+  <circle cx="2048" cy="2048" r="8" fill="#c084fc" opacity="0.8"/>
+  <line x1="1988" y1="2048" x2="2008" y2="2048" stroke="#c084fc" stroke-width="2" opacity="0.6"/>
+  <line x1="2088" y1="2048" x2="2108" y2="2048" stroke="#c084fc" stroke-width="2" opacity="0.6"/>
+  <line x1="2048" y1="1988" x2="2048" y2="2008" stroke="#c084fc" stroke-width="2" opacity="0.6"/>
+  <line x1="2048" y1="2088" x2="2048" y2="2108" stroke="#c084fc" stroke-width="2" opacity="0.6"/>
+
+  <!-- Placeholder notice -->
+  <text x="2048" y="1940" text-anchor="middle" fill="#3d4663" font-size="60" font-family="monospace" font-weight="bold">DEADLOCK MAP</text>
+  <text x="2048" y="2160" text-anchor="middle" fill="#2d3448" font-size="32" font-family="monospace">Replace /public/map.svg with the real map image</text>
+  <text x="2048" y="2210" text-anchor="middle" fill="#2d3448" font-size="32" font-family="monospace">then update MAP_IMAGE_URL in MapView.tsx</text>
+
+  <!-- Coordinate labels -->
+  <text x="30" y="50" fill="#2d3448" font-size="24" font-family="monospace">0,0</text>
+  <text x="4040" y="50" fill="#2d3448" font-size="24" font-family="monospace" text-anchor="end">4096,0</text>
+  <text x="30" y="4080" fill="#2d3448" font-size="24" font-family="monospace">0,4096</text>
+  <text x="4040" y="4080" fill="#2d3448" font-size="24" font-family="monospace" text-anchor="end">4096,4096</text>
+</svg>
